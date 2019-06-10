@@ -1,0 +1,1330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D6AEB09F03BFE2DC391BF02 /* libPods-MoreCalculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A268CC117126260939005737 /* libPods-MoreCalculator.a */; };
+		E02E071F22A0CEBB00B4254A /* JLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02E071E22A0CEBB00B4254A /* JLWebViewController.m */; };
+		E02E072222A1288700B4254A /* JLLaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02E072122A1288700B4254A /* JLLaunchController.m */; };
+		E09042E0229E5569005B1DDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09042DF229E5569005B1DDB /* AppDelegate.m */; };
+		E09042E8229E556A005B1DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09042E7229E556A005B1DDB /* Assets.xcassets */; };
+		E09042EB229E556B005B1DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09042E9229E556B005B1DDB /* LaunchScreen.storyboard */; };
+		E09042EE229E556B005B1DDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E09042ED229E556B005B1DDB /* main.m */; };
+		E09042F8229E556B005B1DDB /* MoreCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E09042F7229E556B005B1DDB /* MoreCalculatorTests.m */; };
+		E0904303229E556B005B1DDB /* MoreCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904302229E556B005B1DDB /* MoreCalculatorUITests.m */; };
+		E090438D229E56C0005B1DDB /* JLInterestTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904314229E56C0005B1DDB /* JLInterestTableVC.m */; };
+		E090438E229E56C0005B1DDB /* JLCheckVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904315229E56C0005B1DDB /* JLCheckVC.m */; };
+		E090438F229E56C0005B1DDB /* JLFinancialCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904316229E56C0005B1DDB /* JLFinancialCalculatorVC.m */; };
+		E0904390229E56C0005B1DDB /* JLBankFinancialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090431C229E56C0005B1DDB /* JLBankFinancialModel.m */; };
+		E0904391229E56C0005B1DDB /* JLRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090431D229E56C0005B1DDB /* JLRecommendModel.m */; };
+		E0904392229E56C0005B1DDB /* JLP2PfinancialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090431F229E56C0005B1DDB /* JLP2PfinancialModel.m */; };
+		E0904393229E56C0005B1DDB /* JLPayMoneyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904320229E56C0005B1DDB /* JLPayMoneyModel.m */; };
+		E0904394229E56C0005B1DDB /* JLBankFinancingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904325229E56C0005B1DDB /* JLBankFinancingView.m */; };
+		E0904395229E56C0005B1DDB /* JLP2PFinancialView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904328229E56C0005B1DDB /* JLP2PFinancialView.m */; };
+		E0904396229E56C0005B1DDB /* JLDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432A229E56C0005B1DDB /* JLDatePickerView.m */; };
+		E0904397229E56C0005B1DDB /* JLCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432B229E56C0005B1DDB /* JLCheckCell.m */; };
+		E0904398229E56C0005B1DDB /* JLMoreWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432E229E56C0005B1DDB /* JLMoreWebVC.m */; };
+		E0904399229E56C0005B1DDB /* JLMoreFoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432F229E56C0005B1DDB /* JLMoreFoundVC.m */; };
+		E090439A229E56C0005B1DDB /* JLMoreFoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904334229E56C0005B1DDB /* JLMoreFoundCell.m */; };
+		E090439B229E56C0005B1DDB /* JLCarCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904338229E56C0005B1DDB /* JLCarCalculatorVC.m */; };
+		E090439C229E56C0005B1DDB /* JLCarLoansModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090433B229E56C0005B1DDB /* JLCarLoansModel.m */; };
+		E090439D229E56C0005B1DDB /* JLPickerview.m in Sources */ = {isa = PBXBuildFile; fileRef = E090433E229E56C0005B1DDB /* JLPickerview.m */; };
+		E090439E229E56C0005B1DDB /* JLTaxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904340229E56C0005B1DDB /* JLTaxHelper.m */; };
+		E090439F229E56C0005B1DDB /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904342229E56C0005B1DDB /* NSString+Hash.m */; };
+		E09043A0229E56C0005B1DDB /* UIImage+BoRender.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904346229E56C0005B1DDB /* UIImage+BoRender.m */; };
+		E09043A1229E56C0005B1DDB /* UIButton+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904349229E56C0005B1DDB /* UIButton+Utilities.m */; };
+		E09043A2229E56C0005B1DDB /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E090434A229E56C0005B1DDB /* UIView+Frame.m */; };
+		E09043A3229E56C0005B1DDB /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E090434B229E56C0005B1DDB /* NSDate+Utilities.m */; };
+		E09043A4229E56C0005B1DDB /* UIColor+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E090434C229E56C0005B1DDB /* UIColor+Scale.m */; };
+		E09043A5229E56C0005B1DDB /* UITabBarItem+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = E090434D229E56C0005B1DDB /* UITabBarItem+Font.m */; };
+		E09043A6229E56C0005B1DDB /* UITextView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E090434F229E56C0005B1DDB /* UITextView+Utilities.m */; };
+		E09043A7229E56C0005B1DDB /* UIBarButtonItem+Btn.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904350229E56C0005B1DDB /* UIBarButtonItem+Btn.m */; };
+		E09043A8229E56C0005B1DDB /* NSDate+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904351229E56C0005B1DDB /* NSDate+Date.m */; };
+		E09043A9229E56C0005B1DDB /* NSMutableDictionary+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904352229E56C0005B1DDB /* NSMutableDictionary+Utilities.m */; };
+		E09043AA229E56C0005B1DDB /* AFHTTPSessionManager+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904353229E56C0005B1DDB /* AFHTTPSessionManager+Manager.m */; };
+		E09043AB229E56C0005B1DDB /* UIScreen+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904356229E56C0005B1DDB /* UIScreen+Utilities.m */; };
+		E09043AC229E56C0005B1DDB /* UIViewController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904357229E56C0005B1DDB /* UIViewController+Utilities.m */; };
+		E09043AD229E56C0005B1DDB /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E090435E229E56C0005B1DDB /* UIImage+UIColor.m */; };
+		E09043AE229E56C0005B1DDB /* JLHomeCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904366229E56C0005B1DDB /* JLHomeCalculatorVC.m */; };
+		E09043AF229E56C0005B1DDB /* JLHouseInterestRatetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904367229E56C0005B1DDB /* JLHouseInterestRatetVC.m */; };
+		E09043B0229E56C0005B1DDB /* JLHouseLoansModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090436A229E56C0005B1DDB /* JLHouseLoansModel.m */; };
+		E09043B1229E56C0005B1DDB /* JLAccumulationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090436C229E56C0005B1DDB /* JLAccumulationView.m */; };
+		E09043B2229E56C0005B1DDB /* JLBusinessView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090436D229E56C0005B1DDB /* JLBusinessView.m */; };
+		E09043B3229E56C0005B1DDB /* JLCombinationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090436E229E56C0005B1DDB /* JLCombinationView.m */; };
+		E09043B4229E56C0005B1DDB /* ShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904376229E56C0005B1DDB /* ShareTool.m */; };
+		E09043B5229E56C0005B1DDB /* ShareSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E090437A229E56C0005B1DDB /* ShareSheetCell.m */; };
+		E09043B6229E56C0005B1DDB /* ShareSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E090437B229E56C0005B1DDB /* ShareSheetCell.xib */; };
+		E09043B7229E56C0005B1DDB /* ShareSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090437D229E56C0005B1DDB /* ShareSheetView.m */; };
+		E09043B8229E56C0005B1DDB /* ShareSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E090437E229E56C0005B1DDB /* ShareSheetView.xib */; };
+		E09043B9229E56C0005B1DDB /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904380229E56C0005B1DDB /* ShareManager.m */; };
+		E09043BA229E56C0005B1DDB /* JLTaxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0904383229E56C0005B1DDB /* JLTaxViewController.xib */; };
+		E09043BB229E56C0005B1DDB /* JLTaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904384229E56C0005B1DDB /* JLTaxViewController.m */; };
+		E09043BC229E56C0005B1DDB /* JLMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904386229E56C0005B1DDB /* JLMainTabViewController.m */; };
+		E09043BD229E56C0005B1DDB /* JLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904387229E56C0005B1DDB /* JLNavigationController.m */; };
+		E09043BE229E56C0005B1DDB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E090438B229E56C0005B1DDB /* BaseViewController.m */; };
+		E09043C3229E5BD8005B1DDB /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E09043C1229E5BD8005B1DDB /* MBProgressHUD+Add.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E09042F4229E556B005B1DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E09042D3229E5569005B1DDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E09042DA229E5569005B1DDB;
+			remoteInfo = MoreCalculator;
+		};
+		E09042FF229E556B005B1DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E09042D3229E5569005B1DDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E09042DA229E5569005B1DDB;
+			remoteInfo = MoreCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96174FFA4D0F708AC0D391C8 /* Pods-MoreCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoreCalculator/Pods-MoreCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		A268CC117126260939005737 /* libPods-MoreCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoreCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3413EDE21E6A9D1E8F41E7 /* Pods-MoreCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreCalculator/Pods-MoreCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		E02E071D22A0CEBB00B4254A /* JLWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLWebViewController.h; sourceTree = "<group>"; };
+		E02E071E22A0CEBB00B4254A /* JLWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLWebViewController.m; sourceTree = "<group>"; };
+		E02E072022A1288700B4254A /* JLLaunchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLaunchController.h; sourceTree = "<group>"; };
+		E02E072122A1288700B4254A /* JLLaunchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLaunchController.m; sourceTree = "<group>"; };
+		E09042DB229E5569005B1DDB /* MoreCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09042DE229E5569005B1DDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E09042DF229E5569005B1DDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E09042E7229E556A005B1DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E09042EA229E556B005B1DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E09042EC229E556B005B1DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09042ED229E556B005B1DDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E09042F3229E556B005B1DDB /* MoreCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09042F7229E556B005B1DDB /* MoreCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreCalculatorTests.m; sourceTree = "<group>"; };
+		E09042F9229E556B005B1DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09042FE229E556B005B1DDB /* MoreCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0904302229E556B005B1DDB /* MoreCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreCalculatorUITests.m; sourceTree = "<group>"; };
+		E0904304229E556B005B1DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0904314229E56C0005B1DDB /* JLInterestTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLInterestTableVC.m; sourceTree = "<group>"; };
+		E0904315229E56C0005B1DDB /* JLCheckVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCheckVC.m; sourceTree = "<group>"; };
+		E0904316229E56C0005B1DDB /* JLFinancialCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFinancialCalculatorVC.m; sourceTree = "<group>"; };
+		E0904317229E56C0005B1DDB /* JLInterestTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLInterestTableVC.h; sourceTree = "<group>"; };
+		E0904318229E56C0005B1DDB /* JLCheckVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCheckVC.h; sourceTree = "<group>"; };
+		E0904319229E56C0005B1DDB /* JLFinancialCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFinancialCalculatorVC.h; sourceTree = "<group>"; };
+		E090431B229E56C0005B1DDB /* JLP2PfinancialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLP2PfinancialModel.h; sourceTree = "<group>"; };
+		E090431C229E56C0005B1DDB /* JLBankFinancialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBankFinancialModel.m; sourceTree = "<group>"; };
+		E090431D229E56C0005B1DDB /* JLRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRecommendModel.m; sourceTree = "<group>"; };
+		E090431E229E56C0005B1DDB /* JLPayMoneyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPayMoneyModel.h; sourceTree = "<group>"; };
+		E090431F229E56C0005B1DDB /* JLP2PfinancialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLP2PfinancialModel.m; sourceTree = "<group>"; };
+		E0904320229E56C0005B1DDB /* JLPayMoneyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPayMoneyModel.m; sourceTree = "<group>"; };
+		E0904321229E56C0005B1DDB /* JLRecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRecommendModel.h; sourceTree = "<group>"; };
+		E0904322229E56C0005B1DDB /* JLBankFinancialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBankFinancialModel.h; sourceTree = "<group>"; };
+		E0904324229E56C0005B1DDB /* JLP2PFinancialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLP2PFinancialView.h; sourceTree = "<group>"; };
+		E0904325229E56C0005B1DDB /* JLBankFinancingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBankFinancingView.m; sourceTree = "<group>"; };
+		E0904326229E56C0005B1DDB /* JLCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCheckCell.h; sourceTree = "<group>"; };
+		E0904327229E56C0005B1DDB /* JLDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDatePickerView.h; sourceTree = "<group>"; };
+		E0904328229E56C0005B1DDB /* JLP2PFinancialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLP2PFinancialView.m; sourceTree = "<group>"; };
+		E0904329229E56C0005B1DDB /* JLBankFinancingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBankFinancingView.h; sourceTree = "<group>"; };
+		E090432A229E56C0005B1DDB /* JLDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDatePickerView.m; sourceTree = "<group>"; };
+		E090432B229E56C0005B1DDB /* JLCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCheckCell.m; sourceTree = "<group>"; };
+		E090432E229E56C0005B1DDB /* JLMoreWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMoreWebVC.m; sourceTree = "<group>"; };
+		E090432F229E56C0005B1DDB /* JLMoreFoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMoreFoundVC.m; sourceTree = "<group>"; };
+		E0904330229E56C0005B1DDB /* JLMoreWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMoreWebVC.h; sourceTree = "<group>"; };
+		E0904331229E56C0005B1DDB /* JLMoreFoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMoreFoundVC.h; sourceTree = "<group>"; };
+		E0904333229E56C0005B1DDB /* JLMoreFoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMoreFoundCell.h; sourceTree = "<group>"; };
+		E0904334229E56C0005B1DDB /* JLMoreFoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMoreFoundCell.m; sourceTree = "<group>"; };
+		E0904337229E56C0005B1DDB /* JLCarCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCarCalculatorVC.h; sourceTree = "<group>"; };
+		E0904338229E56C0005B1DDB /* JLCarCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCarCalculatorVC.m; sourceTree = "<group>"; };
+		E090433A229E56C0005B1DDB /* JLCarLoansModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCarLoansModel.h; sourceTree = "<group>"; };
+		E090433B229E56C0005B1DDB /* JLCarLoansModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCarLoansModel.m; sourceTree = "<group>"; };
+		E090433D229E56C0005B1DDB /* JLPickerview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPickerview.h; sourceTree = "<group>"; };
+		E090433E229E56C0005B1DDB /* JLPickerview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPickerview.m; sourceTree = "<group>"; };
+		E0904340229E56C0005B1DDB /* JLTaxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTaxHelper.m; sourceTree = "<group>"; };
+		E0904342229E56C0005B1DDB /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		E0904343229E56C0005B1DDB /* AFHTTPSessionManager+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+Manager.h"; sourceTree = "<group>"; };
+		E0904344229E56C0005B1DDB /* NSMutableDictionary+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Utilities.h"; sourceTree = "<group>"; };
+		E0904345229E56C0005B1DDB /* NSDate+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Date.h"; sourceTree = "<group>"; };
+		E0904346229E56C0005B1DDB /* UIImage+BoRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoRender.m"; sourceTree = "<group>"; };
+		E0904347229E56C0005B1DDB /* UIScreen+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Utilities.h"; sourceTree = "<group>"; };
+		E0904348229E56C0005B1DDB /* UIViewController+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utilities.h"; sourceTree = "<group>"; };
+		E0904349229E56C0005B1DDB /* UIButton+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utilities.m"; sourceTree = "<group>"; };
+		E090434A229E56C0005B1DDB /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E090434B229E56C0005B1DDB /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		E090434C229E56C0005B1DDB /* UIColor+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Scale.m"; sourceTree = "<group>"; };
+		E090434D229E56C0005B1DDB /* UITabBarItem+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Font.m"; sourceTree = "<group>"; };
+		E090434E229E56C0005B1DDB /* UIImage+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIColor.h"; sourceTree = "<group>"; };
+		E090434F229E56C0005B1DDB /* UITextView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Utilities.m"; sourceTree = "<group>"; };
+		E0904350229E56C0005B1DDB /* UIBarButtonItem+Btn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Btn.m"; sourceTree = "<group>"; };
+		E0904351229E56C0005B1DDB /* NSDate+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Date.m"; sourceTree = "<group>"; };
+		E0904352229E56C0005B1DDB /* NSMutableDictionary+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Utilities.m"; sourceTree = "<group>"; };
+		E0904353229E56C0005B1DDB /* AFHTTPSessionManager+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+Manager.m"; sourceTree = "<group>"; };
+		E0904354229E56C0005B1DDB /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		E0904355229E56C0005B1DDB /* UIButton+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utilities.h"; sourceTree = "<group>"; };
+		E0904356229E56C0005B1DDB /* UIScreen+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Utilities.m"; sourceTree = "<group>"; };
+		E0904357229E56C0005B1DDB /* UIViewController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utilities.m"; sourceTree = "<group>"; };
+		E0904358229E56C0005B1DDB /* UIImage+BoRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoRender.h"; sourceTree = "<group>"; };
+		E0904359229E56C0005B1DDB /* UIColor+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Scale.h"; sourceTree = "<group>"; };
+		E090435A229E56C0005B1DDB /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		E090435B229E56C0005B1DDB /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E090435C229E56C0005B1DDB /* UIBarButtonItem+Btn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Btn.h"; sourceTree = "<group>"; };
+		E090435D229E56C0005B1DDB /* UITextView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Utilities.h"; sourceTree = "<group>"; };
+		E090435E229E56C0005B1DDB /* UIImage+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIColor.m"; sourceTree = "<group>"; };
+		E090435F229E56C0005B1DDB /* UITabBarItem+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Font.h"; sourceTree = "<group>"; };
+		E0904360229E56C0005B1DDB /* JLTaxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTaxHelper.h; sourceTree = "<group>"; };
+		E0904361229E56C0005B1DDB /* JLCalculatorUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCalculatorUtility.h; sourceTree = "<group>"; };
+		E0904364229E56C0005B1DDB /* JLHomeCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomeCalculatorVC.h; sourceTree = "<group>"; };
+		E0904365229E56C0005B1DDB /* JLHouseInterestRatetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHouseInterestRatetVC.h; sourceTree = "<group>"; };
+		E0904366229E56C0005B1DDB /* JLHomeCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomeCalculatorVC.m; sourceTree = "<group>"; };
+		E0904367229E56C0005B1DDB /* JLHouseInterestRatetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHouseInterestRatetVC.m; sourceTree = "<group>"; };
+		E0904369229E56C0005B1DDB /* JLHouseLoansModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHouseLoansModel.h; sourceTree = "<group>"; };
+		E090436A229E56C0005B1DDB /* JLHouseLoansModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHouseLoansModel.m; sourceTree = "<group>"; };
+		E090436C229E56C0005B1DDB /* JLAccumulationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAccumulationView.m; sourceTree = "<group>"; };
+		E090436D229E56C0005B1DDB /* JLBusinessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBusinessView.m; sourceTree = "<group>"; };
+		E090436E229E56C0005B1DDB /* JLCombinationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCombinationView.m; sourceTree = "<group>"; };
+		E090436F229E56C0005B1DDB /* JLAccumulationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAccumulationView.h; sourceTree = "<group>"; };
+		E0904370229E56C0005B1DDB /* JLBusinessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBusinessView.h; sourceTree = "<group>"; };
+		E0904371229E56C0005B1DDB /* JLCombinationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCombinationView.h; sourceTree = "<group>"; };
+		E0904375229E56C0005B1DDB /* ShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareTool.h; sourceTree = "<group>"; };
+		E0904376229E56C0005B1DDB /* ShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareTool.m; sourceTree = "<group>"; };
+		E0904377229E56C0005B1DDB /* ShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
+		E090437A229E56C0005B1DDB /* ShareSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSheetCell.m; sourceTree = "<group>"; };
+		E090437B229E56C0005B1DDB /* ShareSheetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareSheetCell.xib; sourceTree = "<group>"; };
+		E090437C229E56C0005B1DDB /* ShareSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSheetCell.h; sourceTree = "<group>"; };
+		E090437D229E56C0005B1DDB /* ShareSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSheetView.m; sourceTree = "<group>"; };
+		E090437E229E56C0005B1DDB /* ShareSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareSheetView.xib; sourceTree = "<group>"; };
+		E090437F229E56C0005B1DDB /* ShareSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSheetView.h; sourceTree = "<group>"; };
+		E0904380229E56C0005B1DDB /* ShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
+		E0904382229E56C0005B1DDB /* JLTaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTaxViewController.h; sourceTree = "<group>"; };
+		E0904383229E56C0005B1DDB /* JLTaxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLTaxViewController.xib; sourceTree = "<group>"; };
+		E0904384229E56C0005B1DDB /* JLTaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTaxViewController.m; sourceTree = "<group>"; };
+		E0904386229E56C0005B1DDB /* JLMainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMainTabViewController.m; sourceTree = "<group>"; };
+		E0904387229E56C0005B1DDB /* JLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNavigationController.m; sourceTree = "<group>"; };
+		E0904388229E56C0005B1DDB /* JLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNavigationController.h; sourceTree = "<group>"; };
+		E0904389229E56C0005B1DDB /* JLMainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMainTabViewController.h; sourceTree = "<group>"; };
+		E090438B229E56C0005B1DDB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E090438C229E56C0005B1DDB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E09043BF229E5832005B1DDB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E09043C1229E5BD8005B1DDB /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		E09043C2229E5BD8005B1DDB /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E09042D8229E5569005B1DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6AEB09F03BFE2DC391BF02 /* libPods-MoreCalculator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09042F0229E556B005B1DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09042FB229E556B005B1DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F249F0D11FCFFC593A05896 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A268CC117126260939005737 /* libPods-MoreCalculator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09042D2229E5569005B1DDB = {
+			isa = PBXGroup;
+			children = (
+				E09042DD229E5569005B1DDB /* MoreCalculator */,
+				E09042F6229E556B005B1DDB /* MoreCalculatorTests */,
+				E0904301229E556B005B1DDB /* MoreCalculatorUITests */,
+				E09042DC229E5569005B1DDB /* Products */,
+				EC499B436995A68A88C3E34A /* Pods */,
+				9F249F0D11FCFFC593A05896 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E09042DC229E5569005B1DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E09042DB229E5569005B1DDB /* MoreCalculator.app */,
+				E09042F3229E556B005B1DDB /* MoreCalculatorTests.xctest */,
+				E09042FE229E556B005B1DDB /* MoreCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E09042DD229E5569005B1DDB /* MoreCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E0904310229E56AA005B1DDB /* Classes */,
+				E09042DE229E5569005B1DDB /* AppDelegate.h */,
+				E09042DF229E5569005B1DDB /* AppDelegate.m */,
+				E09042E7229E556A005B1DDB /* Assets.xcassets */,
+				E09042E9229E556B005B1DDB /* LaunchScreen.storyboard */,
+				E09042EC229E556B005B1DDB /* Info.plist */,
+				E09042ED229E556B005B1DDB /* main.m */,
+			);
+			path = MoreCalculator;
+			sourceTree = "<group>";
+		};
+		E09042F6229E556B005B1DDB /* MoreCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E09042F7229E556B005B1DDB /* MoreCalculatorTests.m */,
+				E09042F9229E556B005B1DDB /* Info.plist */,
+			);
+			path = MoreCalculatorTests;
+			sourceTree = "<group>";
+		};
+		E0904301229E556B005B1DDB /* MoreCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0904302229E556B005B1DDB /* MoreCalculatorUITests.m */,
+				E0904304229E556B005B1DDB /* Info.plist */,
+			);
+			path = MoreCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		E0904310229E56AA005B1DDB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0904312229E56C0005B1DDB /* FinancialCalculator */,
+				E090432C229E56C0005B1DDB /* MoreFound */,
+				E0904335229E56C0005B1DDB /* CarCalculator */,
+				E090433F229E56C0005B1DDB /* tools */,
+				E0904362229E56C0005B1DDB /* HouseCalculator */,
+				E0904372229E56C0005B1DDB /* others */,
+				E0904381229E56C0005B1DDB /* TaxCalculator */,
+				E0904385229E56C0005B1DDB /* TabbarAndNavi */,
+				E090438A229E56C0005B1DDB /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E0904312229E56C0005B1DDB /* FinancialCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E0904313229E56C0005B1DDB /* Controller */,
+				E090431A229E56C0005B1DDB /* Model */,
+				E0904323229E56C0005B1DDB /* View */,
+			);
+			path = FinancialCalculator;
+			sourceTree = "<group>";
+		};
+		E0904313229E56C0005B1DDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0904314229E56C0005B1DDB /* JLInterestTableVC.m */,
+				E0904315229E56C0005B1DDB /* JLCheckVC.m */,
+				E0904316229E56C0005B1DDB /* JLFinancialCalculatorVC.m */,
+				E0904317229E56C0005B1DDB /* JLInterestTableVC.h */,
+				E0904318229E56C0005B1DDB /* JLCheckVC.h */,
+				E0904319229E56C0005B1DDB /* JLFinancialCalculatorVC.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E090431A229E56C0005B1DDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E090431B229E56C0005B1DDB /* JLP2PfinancialModel.h */,
+				E090431C229E56C0005B1DDB /* JLBankFinancialModel.m */,
+				E090431D229E56C0005B1DDB /* JLRecommendModel.m */,
+				E090431E229E56C0005B1DDB /* JLPayMoneyModel.h */,
+				E090431F229E56C0005B1DDB /* JLP2PfinancialModel.m */,
+				E0904320229E56C0005B1DDB /* JLPayMoneyModel.m */,
+				E0904321229E56C0005B1DDB /* JLRecommendModel.h */,
+				E0904322229E56C0005B1DDB /* JLBankFinancialModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0904323229E56C0005B1DDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0904324229E56C0005B1DDB /* JLP2PFinancialView.h */,
+				E0904325229E56C0005B1DDB /* JLBankFinancingView.m */,
+				E0904326229E56C0005B1DDB /* JLCheckCell.h */,
+				E0904327229E56C0005B1DDB /* JLDatePickerView.h */,
+				E0904328229E56C0005B1DDB /* JLP2PFinancialView.m */,
+				E0904329229E56C0005B1DDB /* JLBankFinancingView.h */,
+				E090432A229E56C0005B1DDB /* JLDatePickerView.m */,
+				E090432B229E56C0005B1DDB /* JLCheckCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E090432C229E56C0005B1DDB /* MoreFound */ = {
+			isa = PBXGroup;
+			children = (
+				E090432D229E56C0005B1DDB /* Controller */,
+				E0904332229E56C0005B1DDB /* View */,
+			);
+			path = MoreFound;
+			sourceTree = "<group>";
+		};
+		E090432D229E56C0005B1DDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E090432E229E56C0005B1DDB /* JLMoreWebVC.m */,
+				E090432F229E56C0005B1DDB /* JLMoreFoundVC.m */,
+				E0904330229E56C0005B1DDB /* JLMoreWebVC.h */,
+				E0904331229E56C0005B1DDB /* JLMoreFoundVC.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0904332229E56C0005B1DDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0904333229E56C0005B1DDB /* JLMoreFoundCell.h */,
+				E0904334229E56C0005B1DDB /* JLMoreFoundCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0904335229E56C0005B1DDB /* CarCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E0904336229E56C0005B1DDB /* Controller */,
+				E0904339229E56C0005B1DDB /* Model */,
+				E090433C229E56C0005B1DDB /* View */,
+			);
+			path = CarCalculator;
+			sourceTree = "<group>";
+		};
+		E0904336229E56C0005B1DDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0904337229E56C0005B1DDB /* JLCarCalculatorVC.h */,
+				E0904338229E56C0005B1DDB /* JLCarCalculatorVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0904339229E56C0005B1DDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E090433A229E56C0005B1DDB /* JLCarLoansModel.h */,
+				E090433B229E56C0005B1DDB /* JLCarLoansModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E090433C229E56C0005B1DDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E090433D229E56C0005B1DDB /* JLPickerview.h */,
+				E090433E229E56C0005B1DDB /* JLPickerview.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E090433F229E56C0005B1DDB /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				E0904340229E56C0005B1DDB /* JLTaxHelper.m */,
+				E0904341229E56C0005B1DDB /* Category */,
+				E0904360229E56C0005B1DDB /* JLTaxHelper.h */,
+				E0904361229E56C0005B1DDB /* JLCalculatorUtility.h */,
+				E09043BF229E5832005B1DDB /* PrefixHeader.pch */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		E0904341229E56C0005B1DDB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E09043C0229E5BD8005B1DDB /* MBProgressHUD */,
+				E0904342229E56C0005B1DDB /* NSString+Hash.m */,
+				E0904343229E56C0005B1DDB /* AFHTTPSessionManager+Manager.h */,
+				E0904344229E56C0005B1DDB /* NSMutableDictionary+Utilities.h */,
+				E0904345229E56C0005B1DDB /* NSDate+Date.h */,
+				E0904346229E56C0005B1DDB /* UIImage+BoRender.m */,
+				E0904347229E56C0005B1DDB /* UIScreen+Utilities.h */,
+				E0904348229E56C0005B1DDB /* UIViewController+Utilities.h */,
+				E0904349229E56C0005B1DDB /* UIButton+Utilities.m */,
+				E090434A229E56C0005B1DDB /* UIView+Frame.m */,
+				E090434B229E56C0005B1DDB /* NSDate+Utilities.m */,
+				E090434C229E56C0005B1DDB /* UIColor+Scale.m */,
+				E090434D229E56C0005B1DDB /* UITabBarItem+Font.m */,
+				E090434E229E56C0005B1DDB /* UIImage+UIColor.h */,
+				E090434F229E56C0005B1DDB /* UITextView+Utilities.m */,
+				E0904350229E56C0005B1DDB /* UIBarButtonItem+Btn.m */,
+				E0904351229E56C0005B1DDB /* NSDate+Date.m */,
+				E0904352229E56C0005B1DDB /* NSMutableDictionary+Utilities.m */,
+				E0904353229E56C0005B1DDB /* AFHTTPSessionManager+Manager.m */,
+				E0904354229E56C0005B1DDB /* NSString+Hash.h */,
+				E0904355229E56C0005B1DDB /* UIButton+Utilities.h */,
+				E0904356229E56C0005B1DDB /* UIScreen+Utilities.m */,
+				E0904357229E56C0005B1DDB /* UIViewController+Utilities.m */,
+				E0904358229E56C0005B1DDB /* UIImage+BoRender.h */,
+				E0904359229E56C0005B1DDB /* UIColor+Scale.h */,
+				E090435A229E56C0005B1DDB /* NSDate+Utilities.h */,
+				E090435B229E56C0005B1DDB /* UIView+Frame.h */,
+				E090435C229E56C0005B1DDB /* UIBarButtonItem+Btn.h */,
+				E090435D229E56C0005B1DDB /* UITextView+Utilities.h */,
+				E090435E229E56C0005B1DDB /* UIImage+UIColor.m */,
+				E090435F229E56C0005B1DDB /* UITabBarItem+Font.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E0904362229E56C0005B1DDB /* HouseCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E0904363229E56C0005B1DDB /* Controller */,
+				E0904368229E56C0005B1DDB /* Model */,
+				E090436B229E56C0005B1DDB /* View */,
+			);
+			path = HouseCalculator;
+			sourceTree = "<group>";
+		};
+		E0904363229E56C0005B1DDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0904364229E56C0005B1DDB /* JLHomeCalculatorVC.h */,
+				E0904365229E56C0005B1DDB /* JLHouseInterestRatetVC.h */,
+				E0904366229E56C0005B1DDB /* JLHomeCalculatorVC.m */,
+				E0904367229E56C0005B1DDB /* JLHouseInterestRatetVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0904368229E56C0005B1DDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0904369229E56C0005B1DDB /* JLHouseLoansModel.h */,
+				E090436A229E56C0005B1DDB /* JLHouseLoansModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E090436B229E56C0005B1DDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E090436C229E56C0005B1DDB /* JLAccumulationView.m */,
+				E090436D229E56C0005B1DDB /* JLBusinessView.m */,
+				E090436E229E56C0005B1DDB /* JLCombinationView.m */,
+				E090436F229E56C0005B1DDB /* JLAccumulationView.h */,
+				E0904370229E56C0005B1DDB /* JLBusinessView.h */,
+				E0904371229E56C0005B1DDB /* JLCombinationView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0904372229E56C0005B1DDB /* others */ = {
+			isa = PBXGroup;
+			children = (
+				E0904373229E56C0005B1DDB /* ShareManager */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		E0904373229E56C0005B1DDB /* ShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				E0904374229E56C0005B1DDB /* ShareTool */,
+				E0904377229E56C0005B1DDB /* ShareManager.h */,
+				E0904378229E56C0005B1DDB /* ShareSheetView */,
+				E0904380229E56C0005B1DDB /* ShareManager.m */,
+			);
+			path = ShareManager;
+			sourceTree = "<group>";
+		};
+		E0904374229E56C0005B1DDB /* ShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				E0904375229E56C0005B1DDB /* ShareTool.h */,
+				E0904376229E56C0005B1DDB /* ShareTool.m */,
+			);
+			path = ShareTool;
+			sourceTree = "<group>";
+		};
+		E0904378229E56C0005B1DDB /* ShareSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				E0904379229E56C0005B1DDB /* ShareCell */,
+				E090437D229E56C0005B1DDB /* ShareSheetView.m */,
+				E090437E229E56C0005B1DDB /* ShareSheetView.xib */,
+				E090437F229E56C0005B1DDB /* ShareSheetView.h */,
+			);
+			path = ShareSheetView;
+			sourceTree = "<group>";
+		};
+		E0904379229E56C0005B1DDB /* ShareCell */ = {
+			isa = PBXGroup;
+			children = (
+				E090437A229E56C0005B1DDB /* ShareSheetCell.m */,
+				E090437B229E56C0005B1DDB /* ShareSheetCell.xib */,
+				E090437C229E56C0005B1DDB /* ShareSheetCell.h */,
+			);
+			path = ShareCell;
+			sourceTree = "<group>";
+		};
+		E0904381229E56C0005B1DDB /* TaxCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E0904382229E56C0005B1DDB /* JLTaxViewController.h */,
+				E0904383229E56C0005B1DDB /* JLTaxViewController.xib */,
+				E0904384229E56C0005B1DDB /* JLTaxViewController.m */,
+			);
+			path = TaxCalculator;
+			sourceTree = "<group>";
+		};
+		E0904385229E56C0005B1DDB /* TabbarAndNavi */ = {
+			isa = PBXGroup;
+			children = (
+				E0904386229E56C0005B1DDB /* JLMainTabViewController.m */,
+				E0904387229E56C0005B1DDB /* JLNavigationController.m */,
+				E0904388229E56C0005B1DDB /* JLNavigationController.h */,
+				E0904389229E56C0005B1DDB /* JLMainTabViewController.h */,
+			);
+			path = TabbarAndNavi;
+			sourceTree = "<group>";
+		};
+		E090438A229E56C0005B1DDB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E02E072022A1288700B4254A /* JLLaunchController.h */,
+				E02E072122A1288700B4254A /* JLLaunchController.m */,
+				E090438B229E56C0005B1DDB /* BaseViewController.m */,
+				E090438C229E56C0005B1DDB /* BaseViewController.h */,
+				E02E071D22A0CEBB00B4254A /* JLWebViewController.h */,
+				E02E071E22A0CEBB00B4254A /* JLWebViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E09043C0229E5BD8005B1DDB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E09043C1229E5BD8005B1DDB /* MBProgressHUD+Add.m */,
+				E09043C2229E5BD8005B1DDB /* MBProgressHUD+Add.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		EC499B436995A68A88C3E34A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96174FFA4D0F708AC0D391C8 /* Pods-MoreCalculator.debug.xcconfig */,
+				BB3413EDE21E6A9D1E8F41E7 /* Pods-MoreCalculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E09042DA229E5569005B1DDB /* MoreCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0904307229E556B005B1DDB /* Build configuration list for PBXNativeTarget "MoreCalculator" */;
+			buildPhases = (
+				E137B84E3DE456617CA69CF0 /* [CP] Check Pods Manifest.lock */,
+				E09042D7229E5569005B1DDB /* Sources */,
+				E09042D8229E5569005B1DDB /* Frameworks */,
+				E09042D9229E5569005B1DDB /* Resources */,
+				7FF2984C06E37F82DC22CF98 /* [CP] Copy Pods Resources */,
+				E0989E8022AA2A8D00C30B09 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoreCalculator;
+			productName = MoreCalculator;
+			productReference = E09042DB229E5569005B1DDB /* MoreCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E09042F2229E556B005B1DDB /* MoreCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E090430A229E556B005B1DDB /* Build configuration list for PBXNativeTarget "MoreCalculatorTests" */;
+			buildPhases = (
+				E09042EF229E556B005B1DDB /* Sources */,
+				E09042F0229E556B005B1DDB /* Frameworks */,
+				E09042F1229E556B005B1DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E09042F5229E556B005B1DDB /* PBXTargetDependency */,
+			);
+			name = MoreCalculatorTests;
+			productName = MoreCalculatorTests;
+			productReference = E09042F3229E556B005B1DDB /* MoreCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E09042FD229E556B005B1DDB /* MoreCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E090430D229E556B005B1DDB /* Build configuration list for PBXNativeTarget "MoreCalculatorUITests" */;
+			buildPhases = (
+				E09042FA229E556B005B1DDB /* Sources */,
+				E09042FB229E556B005B1DDB /* Frameworks */,
+				E09042FC229E556B005B1DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0904300229E556B005B1DDB /* PBXTargetDependency */,
+			);
+			name = MoreCalculatorUITests;
+			productName = MoreCalculatorUITests;
+			productReference = E09042FE229E556B005B1DDB /* MoreCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E09042D3229E5569005B1DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zsh;
+				TargetAttributes = {
+					E09042DA229E5569005B1DDB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E09042F2229E556B005B1DDB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E09042DA229E5569005B1DDB;
+					};
+					E09042FD229E556B005B1DDB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E09042DA229E5569005B1DDB;
+					};
+				};
+			};
+			buildConfigurationList = E09042D6229E5569005B1DDB /* Build configuration list for PBXProject "MoreCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E09042D2229E5569005B1DDB;
+			productRefGroup = E09042DC229E5569005B1DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E09042DA229E5569005B1DDB /* MoreCalculator */,
+				E09042F2229E556B005B1DDB /* MoreCalculatorTests */,
+				E09042FD229E556B005B1DDB /* MoreCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E09042D9229E5569005B1DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09042EB229E556B005B1DDB /* LaunchScreen.storyboard in Resources */,
+				E09042E8229E556A005B1DDB /* Assets.xcassets in Resources */,
+				E09043B8229E56C0005B1DDB /* ShareSheetView.xib in Resources */,
+				E09043BA229E56C0005B1DDB /* JLTaxViewController.xib in Resources */,
+				E09043B6229E56C0005B1DDB /* ShareSheetCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09042F1229E556B005B1DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09042FC229E556B005B1DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FF2984C06E37F82DC22CF98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoreCalculator/Pods-MoreCalculator-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoreCalculator/Pods-MoreCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0989E8022AA2A8D00C30B09 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ \"$CONFIGURATION\" != \"Debug\" ]\nthen\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi\n";
+		};
+		E137B84E3DE456617CA69CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoreCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E09042D7229E5569005B1DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09043BB229E56C0005B1DDB /* JLTaxViewController.m in Sources */,
+				E0904394229E56C0005B1DDB /* JLBankFinancingView.m in Sources */,
+				E09043A9229E56C0005B1DDB /* NSMutableDictionary+Utilities.m in Sources */,
+				E09043B0229E56C0005B1DDB /* JLHouseLoansModel.m in Sources */,
+				E02E072222A1288700B4254A /* JLLaunchController.m in Sources */,
+				E09042EE229E556B005B1DDB /* main.m in Sources */,
+				E090439F229E56C0005B1DDB /* NSString+Hash.m in Sources */,
+				E09043A0229E56C0005B1DDB /* UIImage+BoRender.m in Sources */,
+				E09043B7229E56C0005B1DDB /* ShareSheetView.m in Sources */,
+				E09043A4229E56C0005B1DDB /* UIColor+Scale.m in Sources */,
+				E090439C229E56C0005B1DDB /* JLCarLoansModel.m in Sources */,
+				E09043BE229E56C0005B1DDB /* BaseViewController.m in Sources */,
+				E090439D229E56C0005B1DDB /* JLPickerview.m in Sources */,
+				E09043AC229E56C0005B1DDB /* UIViewController+Utilities.m in Sources */,
+				E09043A3229E56C0005B1DDB /* NSDate+Utilities.m in Sources */,
+				E09043B9229E56C0005B1DDB /* ShareManager.m in Sources */,
+				E090439B229E56C0005B1DDB /* JLCarCalculatorVC.m in Sources */,
+				E09043A2229E56C0005B1DDB /* UIView+Frame.m in Sources */,
+				E09043A1229E56C0005B1DDB /* UIButton+Utilities.m in Sources */,
+				E02E071F22A0CEBB00B4254A /* JLWebViewController.m in Sources */,
+				E090438E229E56C0005B1DDB /* JLCheckVC.m in Sources */,
+				E09043B3229E56C0005B1DDB /* JLCombinationView.m in Sources */,
+				E09043A5229E56C0005B1DDB /* UITabBarItem+Font.m in Sources */,
+				E09043BC229E56C0005B1DDB /* JLMainTabViewController.m in Sources */,
+				E09042E0229E5569005B1DDB /* AppDelegate.m in Sources */,
+				E0904390229E56C0005B1DDB /* JLBankFinancialModel.m in Sources */,
+				E09043A6229E56C0005B1DDB /* UITextView+Utilities.m in Sources */,
+				E09043AA229E56C0005B1DDB /* AFHTTPSessionManager+Manager.m in Sources */,
+				E090439A229E56C0005B1DDB /* JLMoreFoundCell.m in Sources */,
+				E0904397229E56C0005B1DDB /* JLCheckCell.m in Sources */,
+				E0904393229E56C0005B1DDB /* JLPayMoneyModel.m in Sources */,
+				E09043A8229E56C0005B1DDB /* NSDate+Date.m in Sources */,
+				E0904399229E56C0005B1DDB /* JLMoreFoundVC.m in Sources */,
+				E09043AB229E56C0005B1DDB /* UIScreen+Utilities.m in Sources */,
+				E0904395229E56C0005B1DDB /* JLP2PFinancialView.m in Sources */,
+				E090438F229E56C0005B1DDB /* JLFinancialCalculatorVC.m in Sources */,
+				E09043B1229E56C0005B1DDB /* JLAccumulationView.m in Sources */,
+				E09043BD229E56C0005B1DDB /* JLNavigationController.m in Sources */,
+				E09043AF229E56C0005B1DDB /* JLHouseInterestRatetVC.m in Sources */,
+				E0904396229E56C0005B1DDB /* JLDatePickerView.m in Sources */,
+				E09043B2229E56C0005B1DDB /* JLBusinessView.m in Sources */,
+				E09043C3229E5BD8005B1DDB /* MBProgressHUD+Add.m in Sources */,
+				E09043AD229E56C0005B1DDB /* UIImage+UIColor.m in Sources */,
+				E0904392229E56C0005B1DDB /* JLP2PfinancialModel.m in Sources */,
+				E09043A7229E56C0005B1DDB /* UIBarButtonItem+Btn.m in Sources */,
+				E09043B4229E56C0005B1DDB /* ShareTool.m in Sources */,
+				E0904391229E56C0005B1DDB /* JLRecommendModel.m in Sources */,
+				E09043AE229E56C0005B1DDB /* JLHomeCalculatorVC.m in Sources */,
+				E090438D229E56C0005B1DDB /* JLInterestTableVC.m in Sources */,
+				E090439E229E56C0005B1DDB /* JLTaxHelper.m in Sources */,
+				E0904398229E56C0005B1DDB /* JLMoreWebVC.m in Sources */,
+				E09043B5229E56C0005B1DDB /* ShareSheetCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09042EF229E556B005B1DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09042F8229E556B005B1DDB /* MoreCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09042FA229E556B005B1DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0904303229E556B005B1DDB /* MoreCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E09042F5229E556B005B1DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E09042DA229E5569005B1DDB /* MoreCalculator */;
+			targetProxy = E09042F4229E556B005B1DDB /* PBXContainerItemProxy */;
+		};
+		E0904300229E556B005B1DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E09042DA229E5569005B1DDB /* MoreCalculator */;
+			targetProxy = E09042FF229E556B005B1DDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E09042E9229E556B005B1DDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E09042EA229E556B005B1DDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0904305229E556B005B1DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0904306229E556B005B1DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0904308229E556B005B1DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96174FFA4D0F708AC0D391C8 /* Pods-MoreCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GVHQ8K7DL7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MoreCalculator/Classes/tools/PrefixHeader.pch";
+				INFOPLIST_FILE = MoreCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"BaiduMobStat\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJExtension\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-l\"z.1.2.5\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MOBFoundation\"",
+					"-framework",
+					"\"MOBFoundationEx\"",
+					"-framework",
+					"\"MobLink\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QQConnector\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SMS_SDK\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"ShareSDK\"",
+					"-framework",
+					"\"ShareSDKConnector\"",
+					"-framework",
+					"\"ShareSDKExtension\"",
+					"-framework",
+					"\"SinaWeiboConnector\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMMobClick\"",
+					"-framework",
+					"\"WechatConnector\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsh.MoreCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MoreCalculator_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E0904309229E556B005B1DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3413EDE21E6A9D1E8F41E7 /* Pods-MoreCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GVHQ8K7DL7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MoreCalculator/Classes/tools/PrefixHeader.pch";
+				INFOPLIST_FILE = MoreCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"BaiduMobStat\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJExtension\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-l\"z.1.2.5\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MOBFoundation\"",
+					"-framework",
+					"\"MOBFoundationEx\"",
+					"-framework",
+					"\"MobLink\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QQConnector\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SMS_SDK\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"ShareSDK\"",
+					"-framework",
+					"\"ShareSDKConnector\"",
+					"-framework",
+					"\"ShareSDKExtension\"",
+					"-framework",
+					"\"SinaWeiboConnector\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMMobClick\"",
+					"-framework",
+					"\"WechatConnector\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsh.MoreCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MoreCalculator_dis;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E090430B229E556B005B1DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoreCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zsh.MoreCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoreCalculator.app/MoreCalculator";
+			};
+			name = Debug;
+		};
+		E090430C229E556B005B1DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoreCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zsh.MoreCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoreCalculator.app/MoreCalculator";
+			};
+			name = Release;
+		};
+		E090430E229E556B005B1DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoreCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zsh.MoreCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoreCalculator;
+			};
+			name = Debug;
+		};
+		E090430F229E556B005B1DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoreCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zsh.MoreCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoreCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E09042D6229E5569005B1DDB /* Build configuration list for PBXProject "MoreCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0904305229E556B005B1DDB /* Debug */,
+				E0904306229E556B005B1DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0904307229E556B005B1DDB /* Build configuration list for PBXNativeTarget "MoreCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0904308229E556B005B1DDB /* Debug */,
+				E0904309229E556B005B1DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E090430A229E556B005B1DDB /* Build configuration list for PBXNativeTarget "MoreCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E090430B229E556B005B1DDB /* Debug */,
+				E090430C229E556B005B1DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E090430D229E556B005B1DDB /* Build configuration list for PBXNativeTarget "MoreCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E090430E229E556B005B1DDB /* Debug */,
+				E090430F229E556B005B1DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E09042D3229E5569005B1DDB /* Project object */;
+}

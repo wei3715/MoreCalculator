@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  MoreCalculator
+//
+//  Created by jolly on 29/05/2019.
+//  Copyright © 2019 zsh. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//工具类
+#import "MBProgressHUD+Add.h"
+#import "UIColor+Scale.h"
+#import "UIImage+UIColor.h"
+#import "UIScreen+Utilities.h"
+//第三方的类库
+#import <IQKeyboardManager.h>
+#import "AFNetworking.h"
+#import <MJExtension/MJExtension.h>
+#import "UMMobClick/MobClick.h"
+#import "BaiduMobStat.h"
+#import "JLCalculatorUtility.h"
+
+#endif /* PrefixHeader_pch */
