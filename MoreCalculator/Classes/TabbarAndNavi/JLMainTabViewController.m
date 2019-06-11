@@ -11,7 +11,6 @@
 #import "JLCarCalculatorVC.h"
 #import "JLHomeCalculatorVC.h"
 #import "JLFinancialCalculatorVC.h"
-#import "JLMoreFoundVC.h"
 #import "JLTaxViewController.h"
 
 @interface JLMainTabViewController ()

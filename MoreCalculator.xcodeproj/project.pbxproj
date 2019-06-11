@@ -27,9 +27,6 @@
 		E0904395229E56C0005B1DDB /* JLP2PFinancialView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904328229E56C0005B1DDB /* JLP2PFinancialView.m */; };
 		E0904396229E56C0005B1DDB /* JLDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432A229E56C0005B1DDB /* JLDatePickerView.m */; };
 		E0904397229E56C0005B1DDB /* JLCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432B229E56C0005B1DDB /* JLCheckCell.m */; };
-		E0904398229E56C0005B1DDB /* JLMoreWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432E229E56C0005B1DDB /* JLMoreWebVC.m */; };
-		E0904399229E56C0005B1DDB /* JLMoreFoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432F229E56C0005B1DDB /* JLMoreFoundVC.m */; };
-		E090439A229E56C0005B1DDB /* JLMoreFoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904334229E56C0005B1DDB /* JLMoreFoundCell.m */; };
 		E090439B229E56C0005B1DDB /* JLCarCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904338229E56C0005B1DDB /* JLCarCalculatorVC.m */; };
 		E090439C229E56C0005B1DDB /* JLCarLoansModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090433B229E56C0005B1DDB /* JLCarLoansModel.m */; };
 		E090439D229E56C0005B1DDB /* JLPickerview.m in Sources */ = {isa = PBXBuildFile; fileRef = E090433E229E56C0005B1DDB /* JLPickerview.m */; };
@@ -55,12 +52,6 @@
 		E09043B1229E56C0005B1DDB /* JLAccumulationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090436C229E56C0005B1DDB /* JLAccumulationView.m */; };
 		E09043B2229E56C0005B1DDB /* JLBusinessView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090436D229E56C0005B1DDB /* JLBusinessView.m */; };
 		E09043B3229E56C0005B1DDB /* JLCombinationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090436E229E56C0005B1DDB /* JLCombinationView.m */; };
-		E09043B4229E56C0005B1DDB /* ShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904376229E56C0005B1DDB /* ShareTool.m */; };
-		E09043B5229E56C0005B1DDB /* ShareSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E090437A229E56C0005B1DDB /* ShareSheetCell.m */; };
-		E09043B6229E56C0005B1DDB /* ShareSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E090437B229E56C0005B1DDB /* ShareSheetCell.xib */; };
-		E09043B7229E56C0005B1DDB /* ShareSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090437D229E56C0005B1DDB /* ShareSheetView.m */; };
-		E09043B8229E56C0005B1DDB /* ShareSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E090437E229E56C0005B1DDB /* ShareSheetView.xib */; };
-		E09043B9229E56C0005B1DDB /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904380229E56C0005B1DDB /* ShareManager.m */; };
 		E09043BA229E56C0005B1DDB /* JLTaxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0904383229E56C0005B1DDB /* JLTaxViewController.xib */; };
 		E09043BB229E56C0005B1DDB /* JLTaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904384229E56C0005B1DDB /* JLTaxViewController.m */; };
 		E09043BC229E56C0005B1DDB /* JLMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904386229E56C0005B1DDB /* JLMainTabViewController.m */; };
@@ -129,12 +120,6 @@
 		E0904329229E56C0005B1DDB /* JLBankFinancingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBankFinancingView.h; sourceTree = "<group>"; };
 		E090432A229E56C0005B1DDB /* JLDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDatePickerView.m; sourceTree = "<group>"; };
 		E090432B229E56C0005B1DDB /* JLCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCheckCell.m; sourceTree = "<group>"; };
-		E090432E229E56C0005B1DDB /* JLMoreWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMoreWebVC.m; sourceTree = "<group>"; };
-		E090432F229E56C0005B1DDB /* JLMoreFoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMoreFoundVC.m; sourceTree = "<group>"; };
-		E0904330229E56C0005B1DDB /* JLMoreWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMoreWebVC.h; sourceTree = "<group>"; };
-		E0904331229E56C0005B1DDB /* JLMoreFoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMoreFoundVC.h; sourceTree = "<group>"; };
-		E0904333229E56C0005B1DDB /* JLMoreFoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMoreFoundCell.h; sourceTree = "<group>"; };
-		E0904334229E56C0005B1DDB /* JLMoreFoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMoreFoundCell.m; sourceTree = "<group>"; };
 		E0904337229E56C0005B1DDB /* JLCarCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCarCalculatorVC.h; sourceTree = "<group>"; };
 		E0904338229E56C0005B1DDB /* JLCarCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCarCalculatorVC.m; sourceTree = "<group>"; };
 		E090433A229E56C0005B1DDB /* JLCarLoansModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCarLoansModel.h; sourceTree = "<group>"; };
@@ -186,16 +171,6 @@
 		E090436F229E56C0005B1DDB /* JLAccumulationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAccumulationView.h; sourceTree = "<group>"; };
 		E0904370229E56C0005B1DDB /* JLBusinessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBusinessView.h; sourceTree = "<group>"; };
 		E0904371229E56C0005B1DDB /* JLCombinationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCombinationView.h; sourceTree = "<group>"; };
-		E0904375229E56C0005B1DDB /* ShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareTool.h; sourceTree = "<group>"; };
-		E0904376229E56C0005B1DDB /* ShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareTool.m; sourceTree = "<group>"; };
-		E0904377229E56C0005B1DDB /* ShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
-		E090437A229E56C0005B1DDB /* ShareSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSheetCell.m; sourceTree = "<group>"; };
-		E090437B229E56C0005B1DDB /* ShareSheetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareSheetCell.xib; sourceTree = "<group>"; };
-		E090437C229E56C0005B1DDB /* ShareSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSheetCell.h; sourceTree = "<group>"; };
-		E090437D229E56C0005B1DDB /* ShareSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSheetView.m; sourceTree = "<group>"; };
-		E090437E229E56C0005B1DDB /* ShareSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareSheetView.xib; sourceTree = "<group>"; };
-		E090437F229E56C0005B1DDB /* ShareSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSheetView.h; sourceTree = "<group>"; };
-		E0904380229E56C0005B1DDB /* ShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
 		E0904382229E56C0005B1DDB /* JLTaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTaxViewController.h; sourceTree = "<group>"; };
 		E0904383229E56C0005B1DDB /* JLTaxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLTaxViewController.xib; sourceTree = "<group>"; };
 		E0904384229E56C0005B1DDB /* JLTaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTaxViewController.m; sourceTree = "<group>"; };
@@ -302,11 +277,9 @@
 			isa = PBXGroup;
 			children = (
 				E0904312229E56C0005B1DDB /* FinancialCalculator */,
-				E090432C229E56C0005B1DDB /* MoreFound */,
 				E0904335229E56C0005B1DDB /* CarCalculator */,
 				E090433F229E56C0005B1DDB /* tools */,
 				E0904362229E56C0005B1DDB /* HouseCalculator */,
-				E0904372229E56C0005B1DDB /* others */,
 				E0904381229E56C0005B1DDB /* TaxCalculator */,
 				E0904385229E56C0005B1DDB /* TabbarAndNavi */,
 				E090438A229E56C0005B1DDB /* Base */,
@@ -363,35 +336,6 @@
 				E0904329229E56C0005B1DDB /* JLBankFinancingView.h */,
 				E090432A229E56C0005B1DDB /* JLDatePickerView.m */,
 				E090432B229E56C0005B1DDB /* JLCheckCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E090432C229E56C0005B1DDB /* MoreFound */ = {
-			isa = PBXGroup;
-			children = (
-				E090432D229E56C0005B1DDB /* Controller */,
-				E0904332229E56C0005B1DDB /* View */,
-			);
-			path = MoreFound;
-			sourceTree = "<group>";
-		};
-		E090432D229E56C0005B1DDB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E090432E229E56C0005B1DDB /* JLMoreWebVC.m */,
-				E090432F229E56C0005B1DDB /* JLMoreFoundVC.m */,
-				E0904330229E56C0005B1DDB /* JLMoreWebVC.h */,
-				E0904331229E56C0005B1DDB /* JLMoreFoundVC.h */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E0904332229E56C0005B1DDB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E0904333229E56C0005B1DDB /* JLMoreFoundCell.h */,
-				E0904334229E56C0005B1DDB /* JLMoreFoundCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -524,55 +468,6 @@
 				E0904371229E56C0005B1DDB /* JLCombinationView.h */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		E0904372229E56C0005B1DDB /* others */ = {
-			isa = PBXGroup;
-			children = (
-				E0904373229E56C0005B1DDB /* ShareManager */,
-			);
-			path = others;
-			sourceTree = "<group>";
-		};
-		E0904373229E56C0005B1DDB /* ShareManager */ = {
-			isa = PBXGroup;
-			children = (
-				E0904374229E56C0005B1DDB /* ShareTool */,
-				E0904377229E56C0005B1DDB /* ShareManager.h */,
-				E0904378229E56C0005B1DDB /* ShareSheetView */,
-				E0904380229E56C0005B1DDB /* ShareManager.m */,
-			);
-			path = ShareManager;
-			sourceTree = "<group>";
-		};
-		E0904374229E56C0005B1DDB /* ShareTool */ = {
-			isa = PBXGroup;
-			children = (
-				E0904375229E56C0005B1DDB /* ShareTool.h */,
-				E0904376229E56C0005B1DDB /* ShareTool.m */,
-			);
-			path = ShareTool;
-			sourceTree = "<group>";
-		};
-		E0904378229E56C0005B1DDB /* ShareSheetView */ = {
-			isa = PBXGroup;
-			children = (
-				E0904379229E56C0005B1DDB /* ShareCell */,
-				E090437D229E56C0005B1DDB /* ShareSheetView.m */,
-				E090437E229E56C0005B1DDB /* ShareSheetView.xib */,
-				E090437F229E56C0005B1DDB /* ShareSheetView.h */,
-			);
-			path = ShareSheetView;
-			sourceTree = "<group>";
-		};
-		E0904379229E56C0005B1DDB /* ShareCell */ = {
-			isa = PBXGroup;
-			children = (
-				E090437A229E56C0005B1DDB /* ShareSheetCell.m */,
-				E090437B229E56C0005B1DDB /* ShareSheetCell.xib */,
-				E090437C229E56C0005B1DDB /* ShareSheetCell.h */,
-			);
-			path = ShareCell;
 			sourceTree = "<group>";
 		};
 		E0904381229E56C0005B1DDB /* TaxCalculator */ = {
@@ -735,9 +630,7 @@
 			files = (
 				E09042EB229E556B005B1DDB /* LaunchScreen.storyboard in Resources */,
 				E09042E8229E556A005B1DDB /* Assets.xcassets in Resources */,
-				E09043B8229E56C0005B1DDB /* ShareSheetView.xib in Resources */,
 				E09043BA229E56C0005B1DDB /* JLTaxViewController.xib in Resources */,
-				E09043B6229E56C0005B1DDB /* ShareSheetCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,16 +661,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MoreCalculator/Pods-MoreCalculator-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
-				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -838,14 +727,12 @@
 				E09042EE229E556B005B1DDB /* main.m in Sources */,
 				E090439F229E56C0005B1DDB /* NSString+Hash.m in Sources */,
 				E09043A0229E56C0005B1DDB /* UIImage+BoRender.m in Sources */,
-				E09043B7229E56C0005B1DDB /* ShareSheetView.m in Sources */,
 				E09043A4229E56C0005B1DDB /* UIColor+Scale.m in Sources */,
 				E090439C229E56C0005B1DDB /* JLCarLoansModel.m in Sources */,
 				E09043BE229E56C0005B1DDB /* BaseViewController.m in Sources */,
 				E090439D229E56C0005B1DDB /* JLPickerview.m in Sources */,
 				E09043AC229E56C0005B1DDB /* UIViewController+Utilities.m in Sources */,
 				E09043A3229E56C0005B1DDB /* NSDate+Utilities.m in Sources */,
-				E09043B9229E56C0005B1DDB /* ShareManager.m in Sources */,
 				E090439B229E56C0005B1DDB /* JLCarCalculatorVC.m in Sources */,
 				E09043A2229E56C0005B1DDB /* UIView+Frame.m in Sources */,
 				E09043A1229E56C0005B1DDB /* UIButton+Utilities.m in Sources */,
@@ -858,11 +745,9 @@
 				E0904390229E56C0005B1DDB /* JLBankFinancialModel.m in Sources */,
 				E09043A6229E56C0005B1DDB /* UITextView+Utilities.m in Sources */,
 				E09043AA229E56C0005B1DDB /* AFHTTPSessionManager+Manager.m in Sources */,
-				E090439A229E56C0005B1DDB /* JLMoreFoundCell.m in Sources */,
 				E0904397229E56C0005B1DDB /* JLCheckCell.m in Sources */,
 				E0904393229E56C0005B1DDB /* JLPayMoneyModel.m in Sources */,
 				E09043A8229E56C0005B1DDB /* NSDate+Date.m in Sources */,
-				E0904399229E56C0005B1DDB /* JLMoreFoundVC.m in Sources */,
 				E09043AB229E56C0005B1DDB /* UIScreen+Utilities.m in Sources */,
 				E0904395229E56C0005B1DDB /* JLP2PFinancialView.m in Sources */,
 				E090438F229E56C0005B1DDB /* JLFinancialCalculatorVC.m in Sources */,
@@ -875,13 +760,10 @@
 				E09043AD229E56C0005B1DDB /* UIImage+UIColor.m in Sources */,
 				E0904392229E56C0005B1DDB /* JLP2PfinancialModel.m in Sources */,
 				E09043A7229E56C0005B1DDB /* UIBarButtonItem+Btn.m in Sources */,
-				E09043B4229E56C0005B1DDB /* ShareTool.m in Sources */,
 				E0904391229E56C0005B1DDB /* JLRecommendModel.m in Sources */,
 				E09043AE229E56C0005B1DDB /* JLHomeCalculatorVC.m in Sources */,
 				E090438D229E56C0005B1DDB /* JLInterestTableVC.m in Sources */,
 				E090439E229E56C0005B1DDB /* JLTaxHelper.m in Sources */,
-				E0904398229E56C0005B1DDB /* JLMoreWebVC.m in Sources */,
-				E09043B5229E56C0005B1DDB /* ShareSheetCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,7 +929,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GVHQ8K7DL7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MoreCalculator/Classes/tools/PrefixHeader.pch";
@@ -1060,20 +942,15 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"AFNetworking\"",
-					"-l\"BaiduMobStat\"",
 					"-l\"IQKeyboardManager\"",
 					"-l\"MBProgressHUD\"",
 					"-l\"MJExtension\"",
-					"-l\"WeChatSDK\"",
-					"-l\"WeiboSDK\"",
 					"-l\"c++\"",
 					"-l\"icucore\"",
 					"-l\"sqlite3\"",
 					"-l\"stdc++\"",
 					"-l\"z\"",
 					"-l\"z.1.2.5\"",
-					"-framework",
-					"\"AdSupport\"",
 					"-framework",
 					"\"CoreGraphics\"",
 					"-framework",
@@ -1087,43 +964,17 @@
 					"-framework",
 					"\"JavaScriptCore\"",
 					"-framework",
-					"\"MOBFoundation\"",
-					"-framework",
-					"\"MOBFoundationEx\"",
-					"-framework",
-					"\"MobLink\"",
-					"-framework",
-					"\"MobileCoreServices\"",
-					"-framework",
-					"\"QQConnector\"",
-					"-framework",
 					"\"QuartzCore\"",
-					"-framework",
-					"\"SMS_SDK\"",
 					"-framework",
 					"\"Security\"",
 					"-framework",
-					"\"ShareSDK\"",
-					"-framework",
-					"\"ShareSDKConnector\"",
-					"-framework",
-					"\"ShareSDKExtension\"",
-					"-framework",
-					"\"SinaWeiboConnector\"",
-					"-framework",
 					"\"SystemConfiguration\"",
 					"-framework",
-					"\"TencentOpenAPI\"",
-					"-framework",
 					"\"UIKit\"",
-					"-framework",
-					"\"UMMobClick\"",
-					"-framework",
-					"\"WechatConnector\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zsh.MoreCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = MoreCalculator_dev;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1134,8 +985,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GVHQ8K7DL7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MoreCalculator/Classes/tools/PrefixHeader.pch";
@@ -1148,20 +999,15 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"AFNetworking\"",
-					"-l\"BaiduMobStat\"",
 					"-l\"IQKeyboardManager\"",
 					"-l\"MBProgressHUD\"",
 					"-l\"MJExtension\"",
-					"-l\"WeChatSDK\"",
-					"-l\"WeiboSDK\"",
 					"-l\"c++\"",
 					"-l\"icucore\"",
 					"-l\"sqlite3\"",
 					"-l\"stdc++\"",
 					"-l\"z\"",
 					"-l\"z.1.2.5\"",
-					"-framework",
-					"\"AdSupport\"",
 					"-framework",
 					"\"CoreGraphics\"",
 					"-framework",
@@ -1175,43 +1021,17 @@
 					"-framework",
 					"\"JavaScriptCore\"",
 					"-framework",
-					"\"MOBFoundation\"",
-					"-framework",
-					"\"MOBFoundationEx\"",
-					"-framework",
-					"\"MobLink\"",
-					"-framework",
-					"\"MobileCoreServices\"",
-					"-framework",
-					"\"QQConnector\"",
-					"-framework",
 					"\"QuartzCore\"",
-					"-framework",
-					"\"SMS_SDK\"",
 					"-framework",
 					"\"Security\"",
 					"-framework",
-					"\"ShareSDK\"",
-					"-framework",
-					"\"ShareSDKConnector\"",
-					"-framework",
-					"\"ShareSDKExtension\"",
-					"-framework",
-					"\"SinaWeiboConnector\"",
-					"-framework",
 					"\"SystemConfiguration\"",
 					"-framework",
-					"\"TencentOpenAPI\"",
-					"-framework",
 					"\"UIKit\"",
-					"-framework",
-					"\"UMMobClick\"",
-					"-framework",
-					"\"WechatConnector\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zsh.MoreCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = MoreCalculator_dis;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

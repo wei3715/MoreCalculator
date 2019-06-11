@@ -43,16 +43,6 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright 2019 Baidu. All rights reserved.</string>
-			<key>License</key>
-			<string>Copyright</string>
-			<key>Title</key>
-			<string>BaiduMobStat</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
 			<string>MIT License
 
 Copyright (c) 2013-2017 Iftekhar Qurashi
@@ -164,58 +154,6 @@ THE SOFTWARE.
 			<string>MIT</string>
 			<key>Title</key>
 			<string>MJExtension</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright © 2012-2018 mob</string>
-			<key>License</key>
-			<string>Copyright © 2012-2018 mob.com</string>
-			<key>Title</key>
-			<string>MOBFoundation</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright © 2012-2015 mob.com</string>
-			<key>License</key>
-			<string>Copyright © 2012-2017 mob.com</string>
-			<key>Title</key>
-			<string>MobLink</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright © 2012-2017 mob.com</string>
-			<key>License</key>
-			<string>Copyright © 2012-2017 mob.com</string>
-			<key>Title</key>
-			<string>SMSSDK</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright © 2012-2016 mob
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>ShareSDK3</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright 2011 - 2015 UMeng.com. All rights reserved.
-</string>
-			<key>License</key>
-			<string>Copyright</string>
-			<key>Title</key>
-			<string>UMengAnalytics</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
