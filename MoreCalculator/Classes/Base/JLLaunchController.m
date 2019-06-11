@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self registerNotificationEnterFore];
+//    [self registerNotificationEnterFore];
     [self.view addSubview:self.lanchImageView];
     // 开启延长动画
     [self setLaunchAnimation];
@@ -57,39 +57,8 @@
         
     } completion:^(BOOL finished) {
         //动画结束后执行的操作
-        [self navigationPage];
+        [self goToMainVC];
     }];
-}
-
-/// 页面导向
-- (void)navigationPage{
-    kWeakSelf(self);
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager GET:@"https://a05mobileimage.mu572.com/static/A05M/_default/__static/_wms/_l/_data/form/wms-form-app-calculator.json?128" parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        if (responseObject)
-        {
-            NSArray *arr = (NSArray *)responseObject;
-            NSDictionary *dic = [arr firstObject];
-            if ([dic[@"open"]boolValue]) {
-                [weakself goToWebVCWithUrl:dic[@"url"]];
-            } else {
-                [weakself goToMainVC];
-            }
-        } else {
-           [weakself goToMainVC];
-        }
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"请求失败%@",error);
-        [weakself goToMainVC];
-    }];
-}
-
-
-- (void)goToWebVCWithUrl:(NSString *)url{
-    if (self.launchFinishBlock) {
-        self.launchFinishBlock(YES,url);
-    }
-    
 }
 
 - (void)goToMainVC{

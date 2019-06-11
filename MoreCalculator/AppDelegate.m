@@ -24,20 +24,12 @@
     application.statusBarHidden = NO;
     
     kWeakSelf(self);
-//    JLLaunchController *launchVC = [[JLLaunchController alloc] init];;
-//    [self.window setRootViewController:launchVC];
-//    [launchVC setLaunchFinishBlock:^(BOOL open,NSString *urlStr) {
-//        if (open) {
-//            JLWebViewController *webVC = [[JLWebViewController alloc] init];
-//            webVC.urlStr = urlStr;
-//            [self.window setRootViewController:webVC];
-//        } else {
-//            JLMainTabViewController *puppetMainTab = [[JLMainTabViewController alloc] init];
-//            [weakself.window setRootViewController:puppetMainTab];
-//        }
-//    }];
-    JLMainTabViewController *puppetMainTab = [[JLMainTabViewController alloc] init];
-    [weakself.window setRootViewController:puppetMainTab];
+    JLLaunchController *launchVC = [[JLLaunchController alloc] init];;
+    [self.window setRootViewController:launchVC];
+    [launchVC setLaunchFinishBlock:^(BOOL open,NSString *urlStr) {
+        JLMainTabViewController *puppetMainTab = [[JLMainTabViewController alloc] init];
+        [weakself.window setRootViewController:puppetMainTab];
+    }];
     //3.显示窗口
     [self.window makeKeyAndVisible];
     

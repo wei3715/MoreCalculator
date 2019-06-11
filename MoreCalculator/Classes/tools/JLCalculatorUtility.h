@@ -77,7 +77,6 @@ return __ ## sharedSingleton; \
 // 强弱引用
 #define kWeakSelf(type)              __weak typeof(type) weak##type = type;
 #define kStrongSelf(type)            __strong typeof(weak##type) strong##type = weak##type;
-#define kGetPuppets                  @"https://a05.gatewayphp.net:9443/public/app/getPuppets";
 #define JLNotificationEnterToFore    @"JLNotificationEnterToFore";
 
 
