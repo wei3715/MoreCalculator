@@ -19,10 +19,8 @@
 //#define ISTEST
 #ifdef ISTEST
 #define BASEURL @"http://120.27.226.32/index_wx.php/" //测试url公网
-#define BASEWEBURl @"http://120.27.226.32/" //测试web网页地址
 #else
 #define BASEURL @"https://www.youjin360.com/index_wx.php/" //正式url内网
-#define BASEWEBURl @"https://www.youjin360.com/" //正式web网页地址
 #endif
 //token
 #define tokenString [[NSUserDefaults standardUserDefaults] objectForKey:@"access_token"]

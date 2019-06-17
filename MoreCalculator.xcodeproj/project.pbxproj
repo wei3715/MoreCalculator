@@ -16,17 +16,6 @@
 		E09042EE229E556B005B1DDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E09042ED229E556B005B1DDB /* main.m */; };
 		E09042F8229E556B005B1DDB /* MoreCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E09042F7229E556B005B1DDB /* MoreCalculatorTests.m */; };
 		E0904303229E556B005B1DDB /* MoreCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904302229E556B005B1DDB /* MoreCalculatorUITests.m */; };
-		E090438D229E56C0005B1DDB /* JLInterestTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904314229E56C0005B1DDB /* JLInterestTableVC.m */; };
-		E090438E229E56C0005B1DDB /* JLCheckVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904315229E56C0005B1DDB /* JLCheckVC.m */; };
-		E090438F229E56C0005B1DDB /* JLFinancialCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904316229E56C0005B1DDB /* JLFinancialCalculatorVC.m */; };
-		E0904390229E56C0005B1DDB /* JLBankFinancialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090431C229E56C0005B1DDB /* JLBankFinancialModel.m */; };
-		E0904391229E56C0005B1DDB /* JLRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090431D229E56C0005B1DDB /* JLRecommendModel.m */; };
-		E0904392229E56C0005B1DDB /* JLP2PfinancialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090431F229E56C0005B1DDB /* JLP2PfinancialModel.m */; };
-		E0904393229E56C0005B1DDB /* JLPayMoneyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904320229E56C0005B1DDB /* JLPayMoneyModel.m */; };
-		E0904394229E56C0005B1DDB /* JLBankFinancingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904325229E56C0005B1DDB /* JLBankFinancingView.m */; };
-		E0904395229E56C0005B1DDB /* JLP2PFinancialView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904328229E56C0005B1DDB /* JLP2PFinancialView.m */; };
-		E0904396229E56C0005B1DDB /* JLDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432A229E56C0005B1DDB /* JLDatePickerView.m */; };
-		E0904397229E56C0005B1DDB /* JLCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E090432B229E56C0005B1DDB /* JLCheckCell.m */; };
 		E090439B229E56C0005B1DDB /* JLCarCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0904338229E56C0005B1DDB /* JLCarCalculatorVC.m */; };
 		E090439C229E56C0005B1DDB /* JLCarLoansModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E090433B229E56C0005B1DDB /* JLCarLoansModel.m */; };
 		E090439D229E56C0005B1DDB /* JLPickerview.m in Sources */ = {isa = PBXBuildFile; fileRef = E090433E229E56C0005B1DDB /* JLPickerview.m */; };
@@ -98,28 +87,6 @@
 		E09042FE229E556B005B1DDB /* MoreCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0904302229E556B005B1DDB /* MoreCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreCalculatorUITests.m; sourceTree = "<group>"; };
 		E0904304229E556B005B1DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0904314229E56C0005B1DDB /* JLInterestTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLInterestTableVC.m; sourceTree = "<group>"; };
-		E0904315229E56C0005B1DDB /* JLCheckVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCheckVC.m; sourceTree = "<group>"; };
-		E0904316229E56C0005B1DDB /* JLFinancialCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFinancialCalculatorVC.m; sourceTree = "<group>"; };
-		E0904317229E56C0005B1DDB /* JLInterestTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLInterestTableVC.h; sourceTree = "<group>"; };
-		E0904318229E56C0005B1DDB /* JLCheckVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCheckVC.h; sourceTree = "<group>"; };
-		E0904319229E56C0005B1DDB /* JLFinancialCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFinancialCalculatorVC.h; sourceTree = "<group>"; };
-		E090431B229E56C0005B1DDB /* JLP2PfinancialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLP2PfinancialModel.h; sourceTree = "<group>"; };
-		E090431C229E56C0005B1DDB /* JLBankFinancialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBankFinancialModel.m; sourceTree = "<group>"; };
-		E090431D229E56C0005B1DDB /* JLRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRecommendModel.m; sourceTree = "<group>"; };
-		E090431E229E56C0005B1DDB /* JLPayMoneyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPayMoneyModel.h; sourceTree = "<group>"; };
-		E090431F229E56C0005B1DDB /* JLP2PfinancialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLP2PfinancialModel.m; sourceTree = "<group>"; };
-		E0904320229E56C0005B1DDB /* JLPayMoneyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPayMoneyModel.m; sourceTree = "<group>"; };
-		E0904321229E56C0005B1DDB /* JLRecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRecommendModel.h; sourceTree = "<group>"; };
-		E0904322229E56C0005B1DDB /* JLBankFinancialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBankFinancialModel.h; sourceTree = "<group>"; };
-		E0904324229E56C0005B1DDB /* JLP2PFinancialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLP2PFinancialView.h; sourceTree = "<group>"; };
-		E0904325229E56C0005B1DDB /* JLBankFinancingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBankFinancingView.m; sourceTree = "<group>"; };
-		E0904326229E56C0005B1DDB /* JLCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCheckCell.h; sourceTree = "<group>"; };
-		E0904327229E56C0005B1DDB /* JLDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDatePickerView.h; sourceTree = "<group>"; };
-		E0904328229E56C0005B1DDB /* JLP2PFinancialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLP2PFinancialView.m; sourceTree = "<group>"; };
-		E0904329229E56C0005B1DDB /* JLBankFinancingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBankFinancingView.h; sourceTree = "<group>"; };
-		E090432A229E56C0005B1DDB /* JLDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDatePickerView.m; sourceTree = "<group>"; };
-		E090432B229E56C0005B1DDB /* JLCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCheckCell.m; sourceTree = "<group>"; };
 		E0904337229E56C0005B1DDB /* JLCarCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCarCalculatorVC.h; sourceTree = "<group>"; };
 		E0904338229E56C0005B1DDB /* JLCarCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCarCalculatorVC.m; sourceTree = "<group>"; };
 		E090433A229E56C0005B1DDB /* JLCarLoansModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCarLoansModel.h; sourceTree = "<group>"; };
@@ -276,7 +243,6 @@
 		E0904310229E56AA005B1DDB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E0904312229E56C0005B1DDB /* FinancialCalculator */,
 				E0904335229E56C0005B1DDB /* CarCalculator */,
 				E090433F229E56C0005B1DDB /* tools */,
 				E0904362229E56C0005B1DDB /* HouseCalculator */,
@@ -285,59 +251,6 @@
 				E090438A229E56C0005B1DDB /* Base */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		E0904312229E56C0005B1DDB /* FinancialCalculator */ = {
-			isa = PBXGroup;
-			children = (
-				E0904313229E56C0005B1DDB /* Controller */,
-				E090431A229E56C0005B1DDB /* Model */,
-				E0904323229E56C0005B1DDB /* View */,
-			);
-			path = FinancialCalculator;
-			sourceTree = "<group>";
-		};
-		E0904313229E56C0005B1DDB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E0904314229E56C0005B1DDB /* JLInterestTableVC.m */,
-				E0904315229E56C0005B1DDB /* JLCheckVC.m */,
-				E0904316229E56C0005B1DDB /* JLFinancialCalculatorVC.m */,
-				E0904317229E56C0005B1DDB /* JLInterestTableVC.h */,
-				E0904318229E56C0005B1DDB /* JLCheckVC.h */,
-				E0904319229E56C0005B1DDB /* JLFinancialCalculatorVC.h */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E090431A229E56C0005B1DDB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				E090431B229E56C0005B1DDB /* JLP2PfinancialModel.h */,
-				E090431C229E56C0005B1DDB /* JLBankFinancialModel.m */,
-				E090431D229E56C0005B1DDB /* JLRecommendModel.m */,
-				E090431E229E56C0005B1DDB /* JLPayMoneyModel.h */,
-				E090431F229E56C0005B1DDB /* JLP2PfinancialModel.m */,
-				E0904320229E56C0005B1DDB /* JLPayMoneyModel.m */,
-				E0904321229E56C0005B1DDB /* JLRecommendModel.h */,
-				E0904322229E56C0005B1DDB /* JLBankFinancialModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E0904323229E56C0005B1DDB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E0904324229E56C0005B1DDB /* JLP2PFinancialView.h */,
-				E0904325229E56C0005B1DDB /* JLBankFinancingView.m */,
-				E0904326229E56C0005B1DDB /* JLCheckCell.h */,
-				E0904327229E56C0005B1DDB /* JLDatePickerView.h */,
-				E0904328229E56C0005B1DDB /* JLP2PFinancialView.m */,
-				E0904329229E56C0005B1DDB /* JLBankFinancingView.h */,
-				E090432A229E56C0005B1DDB /* JLDatePickerView.m */,
-				E090432B229E56C0005B1DDB /* JLCheckCell.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		E0904335229E56C0005B1DDB /* CarCalculator */ = {
@@ -720,7 +633,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09043BB229E56C0005B1DDB /* JLTaxViewController.m in Sources */,
-				E0904394229E56C0005B1DDB /* JLBankFinancingView.m in Sources */,
 				E09043A9229E56C0005B1DDB /* NSMutableDictionary+Utilities.m in Sources */,
 				E09043B0229E56C0005B1DDB /* JLHouseLoansModel.m in Sources */,
 				E02E072222A1288700B4254A /* JLLaunchController.m in Sources */,
@@ -737,32 +649,22 @@
 				E09043A2229E56C0005B1DDB /* UIView+Frame.m in Sources */,
 				E09043A1229E56C0005B1DDB /* UIButton+Utilities.m in Sources */,
 				E02E071F22A0CEBB00B4254A /* JLWebViewController.m in Sources */,
-				E090438E229E56C0005B1DDB /* JLCheckVC.m in Sources */,
 				E09043B3229E56C0005B1DDB /* JLCombinationView.m in Sources */,
 				E09043A5229E56C0005B1DDB /* UITabBarItem+Font.m in Sources */,
 				E09043BC229E56C0005B1DDB /* JLMainTabViewController.m in Sources */,
 				E09042E0229E5569005B1DDB /* AppDelegate.m in Sources */,
-				E0904390229E56C0005B1DDB /* JLBankFinancialModel.m in Sources */,
 				E09043A6229E56C0005B1DDB /* UITextView+Utilities.m in Sources */,
 				E09043AA229E56C0005B1DDB /* AFHTTPSessionManager+Manager.m in Sources */,
-				E0904397229E56C0005B1DDB /* JLCheckCell.m in Sources */,
-				E0904393229E56C0005B1DDB /* JLPayMoneyModel.m in Sources */,
 				E09043A8229E56C0005B1DDB /* NSDate+Date.m in Sources */,
 				E09043AB229E56C0005B1DDB /* UIScreen+Utilities.m in Sources */,
-				E0904395229E56C0005B1DDB /* JLP2PFinancialView.m in Sources */,
-				E090438F229E56C0005B1DDB /* JLFinancialCalculatorVC.m in Sources */,
 				E09043B1229E56C0005B1DDB /* JLAccumulationView.m in Sources */,
 				E09043BD229E56C0005B1DDB /* JLNavigationController.m in Sources */,
 				E09043AF229E56C0005B1DDB /* JLHouseInterestRatetVC.m in Sources */,
-				E0904396229E56C0005B1DDB /* JLDatePickerView.m in Sources */,
 				E09043B2229E56C0005B1DDB /* JLBusinessView.m in Sources */,
 				E09043C3229E5BD8005B1DDB /* MBProgressHUD+Add.m in Sources */,
 				E09043AD229E56C0005B1DDB /* UIImage+UIColor.m in Sources */,
-				E0904392229E56C0005B1DDB /* JLP2PfinancialModel.m in Sources */,
 				E09043A7229E56C0005B1DDB /* UIBarButtonItem+Btn.m in Sources */,
-				E0904391229E56C0005B1DDB /* JLRecommendModel.m in Sources */,
 				E09043AE229E56C0005B1DDB /* JLHomeCalculatorVC.m in Sources */,
-				E090438D229E56C0005B1DDB /* JLInterestTableVC.m in Sources */,
 				E090439E229E56C0005B1DDB /* JLTaxHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

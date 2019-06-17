@@ -405,6 +405,7 @@
 #pragma mark---数据接口----
 - (void)CarLoansData
 {
+    kWeakSelf(self);
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     parameters[@"at"] = tokenString;
@@ -430,6 +431,7 @@
         else
         {
             NSLog(@"返回信息描述%@",responseObject[@"msg"]);
+            [MBProgressHUD showError:responseObject[@"msg"] toView:weakself.view];
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         [MBProgressHUD hideHUDForView:self.view animated:YES];

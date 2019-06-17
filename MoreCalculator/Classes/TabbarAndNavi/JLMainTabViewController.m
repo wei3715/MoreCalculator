@@ -10,7 +10,6 @@
 #import "JLNavigationController.h"
 #import "JLCarCalculatorVC.h"
 #import "JLHomeCalculatorVC.h"
-#import "JLFinancialCalculatorVC.h"
 #import "JLTaxViewController.h"
 
 @interface JLMainTabViewController ()
@@ -40,14 +39,6 @@
     JLNavigationController *carNav = [[JLNavigationController alloc] initWithRootViewController:carVC];
     [self addChildViewController:carNav];
     
-    
-    // 3.添加理财现控制器
-    JLFinancialCalculatorVC *financialVC = [[JLFinancialCalculatorVC alloc] init];
-    JLNavigationController *financialNav = [[JLNavigationController alloc] initWithRootViewController:financialVC];
-    [self addChildViewController:financialNav];
-    
-    
-    
     // 4.个税计算
     JLTaxViewController *taxVC = [[JLTaxViewController alloc] init];
     JLNavigationController *taxNav = [[JLNavigationController alloc] initWithRootViewController:taxVC];
@@ -71,17 +62,9 @@
     nav2.tabBarItem.selectedImage = [[UIImage imageNamed:@"carPress"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     [nav2.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:mainBarColor}
                                    forState:UIControlStateSelected];
-    
-    // 3.添加按钮
-    JLNavigationController *nav3 = self.childViewControllers[2];
-    nav3.tabBarItem.title = @"理财计算";
-    nav3.tabBarItem.image = [UIImage imageNamed:@"moneyNormal"];
-    nav3.tabBarItem.selectedImage = [[UIImage imageNamed:@"moneyPress"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    [nav3.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:mainBarColor}
-                                   forState:UIControlStateSelected];
-    
+
     // 4.添加按钮
-    JLNavigationController *nav4 = self.childViewControllers[3];
+    JLNavigationController *nav4 = self.childViewControllers[2];
     nav4.tabBarItem.title = @"个税计算";
     nav4.tabBarItem.image = [UIImage imageNamed:@"personNormal"];
     nav4.tabBarItem.selectedImage = [[UIImage imageNamed:@"personPress"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
